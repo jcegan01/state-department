@@ -1,9 +1,11 @@
+#Author: Jeff Cegan
+#Project: State Department
+#Date: 11/29/2018
+
+#load libraries
 library(tidyverse)
-load("rda/murders.rda")
 
-murders %>% mutate(abb = reorder(abb,rate)) %>%
-  ggplot(aes(abb, rate))+
-  geom_bar(width = 0.5, stat = "identity", color = "black")+
-  coord_flip()
+#load r data files
+lapply(c("rda/psm.rda", "rda/tlv.rda","rda/dfs.rda", "rda/cfm.rda"), load)
 
-ggsave("figs/barplot.png")
+#add threat values to deficiencies and conforming tables
