@@ -22,9 +22,7 @@ setwd("C:/Users/xadmin/projects/state-department")
 psm <- read.csv("data/physical-security-measures.csv")
 
 #table: threat level and weight
-  # tlv <- read.csv("data/threat-level.csv")
-  # tlv <- melt(tl)
-  # tlv <- rename(tl, c("X"="type", "variable"="level"))
+#tlv<-read.csv("data/threat-level.csv")#tlv<-melt(tl) #tlv<-rename(tl, c("X"="type", "variable"="level"))
 tl1 <- read.csv("data/threat-1-level.csv")
 tl2 <- read.csv("data/threat-2-level.csv")
 tl3 <- read.csv("data/threat-3-level.csv")
@@ -51,18 +49,21 @@ cfm <- cfm %>% left_join(psm, by = "Measure.ID") %>% left_join(tl1, by = "Threat
 dfs <- dfs %>% mutate(Threat.1.Value = Threat.1.Avg.Perf * Threat.1.Weight) %>% 
   mutate(Threat.2.Value = Threat.2.Avg.Perf * Threat.2.Weight) %>% 
   mutate(Threat.3.Value = Threat.3.Avg.Perf * Threat.3.Weight) %>% 
-  mutate(Threat.Avg.Value = (Threat.1.Value+Threat.2.Value+Threat.3.Value)/3)
+  mutate(Threat.Avg.Value = (Threat.1.Value+Threat.2.Value+Threat.3.Value)/3) %>% 
+  mutate(Measure.Type = "Deficiency") %>% select(-"Deficiency.ID..") 
 
 cfm <- cfm %>% mutate(Threat.1.Value = Threat.1.Avg.Perf * Threat.1.Weight) %>% 
   mutate(Threat.2.Value = Threat.2.Avg.Perf * Threat.2.Weight) %>% 
   mutate(Threat.3.Value = Threat.3.Avg.Perf * Threat.3.Weight) %>% 
-  mutate(Threat.Avg.Value = (Threat.1.Value+Threat.2.Value+Threat.3.Value)/3)
+  mutate(Threat.Avg.Value = (Threat.1.Value+Threat.2.Value+Threat.3.Value)/3) %>% 
+  mutate(Measure.Type = "Sufficiency") %>% select(-"Conforming.ID..")
 
+#combine tables
+res <- rbind(dfs,cfm)
 
 #############
 ### save ###
 ###########
 
-save(dfs,file = "rda/dfs.rda")
-save(cfm,file = "rda/cfm.rda")
+save(res,file = "rda/res.rda")
 
