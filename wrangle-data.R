@@ -13,10 +13,16 @@ psm <- read.csv("data/physical-security-measures.csv")
 save(psm,file = "rda/psm.rda")
 
 #table: threat level and value
-tlv <- read.csv("data/threat-level.csv")
-tlv <- melt(tl)
-tlv <- rename(tl, c("X"="type", "variable"="level"))
-save(tlv,file = "rda/tlv.rda")
+  # tlv <- read.csv("data/threat-level.csv")
+  # tlv <- melt(tl)
+  # tlv <- rename(tl, c("X"="type", "variable"="level"))
+tl1 <- read.csv("data/threat-1-level.csv")
+tl2 <- read.csv("data/threat-2-level.csv")
+tl3 <- read.csv("data/threat-3-level.csv")
+
+save(tl1,file = "rda/tl1.rda")
+save(tl2,file = "rda/tl2.rda")
+save(tl3,file = "rda/tl3.rda")
 
 #table: physical security measures - deficiencies
 dfs <- read.csv("data/psm-deficiencies.csv")
