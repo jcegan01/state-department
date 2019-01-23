@@ -1,0 +1,194 @@
+Measure.Group,Measure.ID,Description,Description_Short,Guidance No.,Guidance Description,PVTreat.Perf,TThreat.Perf,CThreat.Perf
+600,1,600_600_600 Contiguous Office Space ,,,,0.001884216,0.441939829,0.353288131
+600,2,Construct corridors and walls contiguous to non-US Gov. controlled spaces meet 5 min. FE protection and extend from the ceiling slab to floor slab. ,,,,0.489206586,0.736017106,0.562820953
+600,3,Construct corridors and walls contiguous to non-US Gov. controlled spaces meet 15 min. FE protection and extend from the ceiling slab to floor slab. ,,,,0.098019497,0.693374127,0.782593536
+600,4,Construct a privacy fence separates housing from Chancery/Consulate area ,,,,0.626006412,0.026553724,0.869689828
+600,5,700_700_700 Perimeter Walls/Fences ,,,,0.429270168,0.075471865,0.275804233
+600,6,Upgrade perimeter walls and fences to provide 9 ft height specification (without foot/hand holds) ,,,,0.138885447,0.950938045,0.090076199
+600,7,Upgrade perimeter walls and fences to provide DS certified anti-ram specification in areas where vehicle approach is possible ,,,,0.79277288,0.052555897,0.755021352
+600,8,Upgrade perimeter fences or walls to deny access to warehouse roof ,,,,0.009867071,0.555210973,0.416083296
+600,9,Upgrade perimeter walls and fences are constructed with sufficient height ,,,,0.129200339,0.808629297,0.520912828
+600,10,Upgrade perimeter walls and fences are constructed with sufficient height ,,,,0.678907078,0.374854787,0.214467175
+600,11,Construct an approved perimeter wall or fence ,,,,0.803236793,0.130069107,0.640299454
+600,12,Construct a perimeter wall in place of the perimeter fence ,,,,0.297249156,0.5250235,0.978731627
+800,13,800_800_800 Setback ,,,,0.776901024,0.111492317,0.667978873
+800,14,GSO review options to obtain sufficent setback distance to meet 100' OSPB and SECCA requirements. ,,,,0.305779325,0.694316851,0.912925479
+800,15,GSO review options to obtain sufficent setback distance for facility to meet 50' OSPB requirements. ,,,,0.163553361,0.236795007,0.99302691
+800,16,GSO review options to obtain sufficent setback distance for facility to meet 65' OSPB requirements. ,,,,0.233024825,0.709635687,0.585998108
+800,17,GSO review options to obtain sufficent setback distance for Warehouse to meet 20' OSPB requirements. ,,,,0.637189039,0.141715327,0.04405527
+800,18,800_800_800_Clear Zone ,,,,0.290805353,0.863839387,0.821756275
+800,19,"Create a clear zone, free of all visual obstructions that would conceal an intruder, for a distance of 20 feet inward from the protected side of the perimeter wall or fence ",,,,0.552377987,0.186881054,0.189276618
+900,20,900_900_900 ,,,,0.206628221,0.474506102,0.975909274
+900,21,GSO obtain additional land to be leased or purchased adjacent to property to increase boundary line ,,,,0.33941719,0.385216365,0.432517657
+1000,22,1000_1000_1000 ,,,,0.607334053,0.219653961,0.695311212
+1000,23,Construct a CAC that meets all OSPB requirements. ,,,,0.236463624,0.205452726,0.084831522
+1000,24,Upgrade CAC to provide anti-ram protection on street side that meets all OSPB requirements. ,,,,0.981820914,0.678869487,0.321970813
+1000,25,Upgrade CAC to provide a guard booth that meets all OSPB requirements. ,,,,0.241938021,0.995744228,0.600436826
+1000,26,Upgrade CAC Consular passback booth to meet 15 min. FE/BR on all sides with a door located on protected side of exterior wall ,,,,0.349105507,0.471278328,0.580577065
+1000,27,Upgrade CAC Consular passback booth to be separate from guard booth. ,,,,0.920721373,0.455416536,0.483546907
+1000,28,Upgrade CAC to add door/gates and barrier controls in CAC guard booth ,,,,0.00431309,0.133552563,0.546950944
+1000,29,Upgrade CAC to ensure all penetrations to CAC Guard booth are protected ,,,,0.176957591,0.040106683,0.91671983
+1000,30,Upgrade CAC Guard booth is 15 min. FE/BR on all sides ,,,,0.028741606,0.50964571,0.743559256
+1000,31,Upgrade CAC Guard booth to connect emergency power ,,,,0.495108553,0.958282351,0.913684034
+1000,32,"Upgrade CAC interior walls, windows or doors to meet 5 min. FE ",,,,0.162813111,0.450057404,0.640796711
+1000,33,Upgrade CAC to 15 min. FE/BR on street side ,,,,0.57684729,0.901174346,0.417235422
+1000,34,Upgrade Demarcation utility room street side door to provide 5 min. FE with exterior keyed cylinders for the forced entry locks ,,,,0.833204471,0.811373935,0.012443012
+1000,35,Upgrade Demarcation utility room direct access only from the compound exterior ,,,,0.956873959,0.039912415,0.621110802
+1000,36,"Upgrade Demarcation utility room street side access so wall opening is no greater than 625 sq. centimeters, and is grilled to 5 min. ",,,,0.921729674,0.723657779,0.33022442
+1000,37,Upgrade Local guard barrier control with an emergency fast operation switch ,,,,0.554688138,0.82210759,0.39873412
+1000,38,Upgrade Local guard barrier control with a reset capability ,,,,0.030917362,0.190228682,0.597432534
+1000,39,Upgrade Local guard barrier control with an annunciator that sounds when barrier is in non-secure position for 0 to 60 sec ,,,,0.655470215,0.271655942,0.32997884
+1000,40,Construct a Mantrap. ,,,,0.044296348,0.059731353,0.312503163
+1000,41,"Upgrade Mantrap with walls, gates, or fencing to 9 ft tall or greater ",,,,0.258964887,0.188004648,0.019654727
+1000,42,"Upgrade Mantrap with anti-climb walls, gates, or fencing ",,,,0.976352324,0.325743122,0.073120047
+1000,43,Widen traffic lane. ,,,,0.519410999,0.430997795,0.855284087
+1000,44,Add master override for Vehicle barrier in MSG Booth ,,,,0.64657882,0.013966231,0.214981845
+1000,45,"Add Vehicle barrier does have emergency override, visual indication of barrier status, or barrier height is equal or greater than 36 inches ",,,,0.008910601,0.167718478,0.404036999
+1000,46,Add Vehicle barrier hydraulic/electric power unit and secure in a locked room or thick steel enclosure protected by IDS alarm system ,,,,0.215908723,0.85285056,0.081551433
+1000,47,Upgrade Vehicle barrier to protect 10' to 12' driveway ,,,,0.355943072,0.588638769,0.225866944
+1000,48,Upgrade to DS approved vehicle barrier. ,,,,0.505427532,0.758291544,0.126946091
+1000,49,Upgrade Vehicle barrier normal operating time so it is equal to or less than 3 to 4 seconds ,,,,0.765111632,0.68648759,0.145092333
+1000,50,Upgrade Vehicle entrance so all walls/fences/gates are equal to or higher than 9 ft. ,,,,0.355370658,0.737344106,0.086232407
+1000,51,Upgrade Vehicle entrance so all walls/fences/gates are anti-climb ,,,,0.411053933,0.811093768,0.966533219
+1100,52,1100_1100_1100 Employee Parking ,,,,0.569794081,0.279336788,0.456992891
+1100,53,Relocate employee parking to 50ft or further from building exterior. ,,,,0.766794128,0.792774341,0.30835782
+1100,54,Relocate employee parking to 20ft or further from building exterior. ,,,,0.149466878,0.237924274,0.264926252
+1100,55,Add wall or fence to employee parking outside perimeter wall ,,,,0.031398379,0.894362898,0.056328664
+1100,56,Upgrade wall or fence to employee parking outside perimeter wall to 7ft or higher ,,,,0.313507974,0.375700282,0.685730277
+1100,57,Upgrade to 9ft or greater the point where the exterior parking lot wall meets the compound wall. ,,,,0.869886315,0.870849887,0.228089459
+1200,58,1200_1200_1200 Illumination ,,,,0.656904262,0.351888588,0.987634861
+1200,59,Upgrade building exterior surfaces lighting ,,,,0.245439618,0.66938963,0.029826417
+1200,60,Upgrade Exterior walls lighting ,,,,0.729457819,0.092160051,0.633543279
+1200,61,Upgrade Roof Surfaces lighting ,,,,0.583890917,0.161794691,0.767052747
+1200,62,Upgrade Building entrances lighting ,,,,0.524084477,0.580803617,0.1047776
+1200,63,Upgrade Inspection locations lighting ,,,,0.197329993,0.261240822,0.663932984
+1200,64,Upgrade Parking areas/lost lighting ,,,,0.92338339,0.271402831,0.938841967
+1200,65,Upgrade Residence entrance and hallways lighting ,,,,0.93756532,0.982846976,0.886011322
+1200,66,Upgrade Roadways lighting ,,,,0.002138545,0.24222071,0.747476487
+1200,67,Upgrade Storage areas lighting ,,,,0.873774851,0.17801129,0.644217284
+1200,68,Upgrade Pedestrian entrances lighting ,,,,0.528843088,0.117426558,0.190854508
+1200,69,Upgrade CACs lighting ,,,,0.071834932,0.820672684,0.92060417
+1200,70,Upgrade Roadway entrances lighting ,,,,0.750910167,0.79128204,0.94933791
+1200,71,Upgrade Open Areas lighting ,,,,0.122418543,0.716512195,0.318629092
+1200,72,Upgrade Perimeter walls/fences lighting ,,,,0.284342741,0.982386273,0.031241958
+1200,73,Upgrade Water approaches lighting ,,,,0.666378986,0.602418436,0.368818765
+1200,74,Upgrade Walkways lighting ,,,,0.757770509,0.025224988,0.983423925
+1200,75,Upgrade Property line lighting ,,,,0.530859876,0.792731799,0.742751301
+1200,76,Tie lighting to post standby power ,,,,0.711597889,0.798102549,0.884390262
+1200,77,Add lighting to master cutoff ,,,,0.82379868,0.513940251,0.219822969
+1200,78,Move lighting master cutoff inside ,,,,0.681906174,0.574248159,0.641931003
+1300,79,1300_1300_1300_BLAST ,,,,0.265391814,0.325721645,0.247593774
+1300,80,Conduct a blast vulnerability study ,,,,0.00891141,0.169818163,0.293084088
+1300,81,Implement blast vulnerablity study recommendations ,,,,0.030069674,0.998948436,0.147934336
+1300,82,Upgrade building to blast standards ,,,,0.711875769,0.446454882,0.151227148
+1300,83,1300_1300_1300_Bldg_Exterior ,,,,0.092072639,0.377912104,0.313054637
+1300,84,Upgrade building exterior by grilling man passable openings ,,,,0.105879254,0.887796047,0.628724698
+1300,85,Upgrade building exterior walls construction to substantial material construction ,,,,0.779379259,0.705643107,0.778509551
+1300,86,Upgrade building exterior to meet FE/BR standards ,,,,0.514747689,0.820137942,0.632320063
+1300,87,Upgrade building exterior to make it difficult to scale ,,,,0.612600035,0.264596068,0.836324788
+1300,88,Upgrade building exterior doors to meet FE/BR standards ,,,,0.563682302,0.38373732,0.723574587
+1300,89,Upgrade building exterior doors with strong and robust with RSO-approved hardware ,,,,0.706343339,0.144540892,0.747128412
+1300,90,Upgrade building exterior windows to meet FE/BR standards ,,,,0.719561044,0.258477432,0.284394369
+1300,91,Upgrade building exterior windows with 8 mil SRWF ,,,,0.845754748,0.919304967,0.819720943
+1300,92,Upgrade building exterior windows to resist unauthorized access (grills or otherwise constructed) ,,,,0.673102654,0.542423156,0.011118585
+1300,93,"Upgrade emergency exit doors with electric emergency lock, override and panic exit device ",,,,0.14858186,0.438727741,0.853990589
+1300,94,Upgrade residential apartment building exterior doors to meet 5 min. FE standard. ,,,,0.451799254,0.20899755,0.954805703
+1300,95,Upgrade residential apartment building exterior doors to meet 15 min. FEBR standard. ,,,,0.292310048,0.234107093,0.804234122
+1300,96,Upgrade Residential Apartment building exterior door to hollow metal door with vision panel and access control hardware. ,,,,0.121194698,0.28984356,0.242719499
+1300,97,Upgrade residence exterior doors to provide 5 min. FE protection. ,,,,0.606310876,0.673092063,0.064495744
+1300,98,Upgrade residence exterior door to hollow metal or solid wood. ,,,,0.393919265,0.985301702,0.394394051
+1300,99,Upgrade residence balcony doors with blast protection. ,,,,0.901297291,0.786235486,0.348589396
+1300,100,"Upgrade residence exterior windows with certified laminated glass or FE, FEBR or blast products that are treated with 8 mil., or equivalent, SRWF. ",,,,0.640275528,0.722122443,0.32714174
+1300,101,Upgrade residence sleeping area with emergency release mechanism for grilles. ,,,,0.672525802,0.233931962,0.875226544
+1300,102,Upgrade roll-up-down doors with doors of substantial material ,,,,0.274413754,0.716316688,0.662809967
+1300,103,Upgrade to RSO approved roll-up-down doors ,,,,0.245134253,0.679153955,0.809067883
+1300,104,Upgrade roll-up-down door locking mechanism is accessible from interior only ,,,,0.838592348,0.72489666,0.812519584
+1400,105,1400_1400_1400 ,,,,0.547785867,0.064592205,0.941584542
+1400,106,Behind hardline: Upgrade non-man-passable barrier system to DS approved system ,,,,0.168639436,0.690181841,0.277645334
+1400,107,Construct protection for any hardline penetrations ,,,,0.050479288,0.122827042,0.524621814
+1400,108,"Upgrade MSG/Guard booth with independent heating, ventilation, and A/C ",,,,0.729238277,0.810627639,0.935566282
+1400,109,Upgrade MSG/Guard booth with a minimum of 2 deal trays ,,,,0.429460985,0.739228765,0.614345571
+1400,110,Construct MSG/Guard booth egress behind interior hardline ,,,,0.697747538,0.677568509,0.158535037
+1400,111,Upgrade MSG/Guard booth to 15 min. FE/BR ,,,,0.096599089,0.958506172,0.491477409
+1400,112,Upgrade MSG/Guard booth to provide six sided protection. ,,,,0.415886814,0.797906772,0.473564962
+1400,113,Upgrade MSG/Guard booth with emergency power source ,,,,0.620357655,0.638100113,0.103911803
+1400,114,Upgrade MSG/Guard booth ventilation air to protect from gas or smoke injection ,,,,0.946177877,0.487124072,0.934765446
+1400,115,Upgrade PAC with tear gas dispensing system ,,,,0.290949228,0.890868899,0.373451132
+1400,116,Move non-security receptionist behind hardline ,,,,0.876007082,0.04837884,0.260242054
+1400,117,Integrate Tear gas system with controls for air handling system ,,,,0.382420218,0.742800929,0.599517899
+1400,118,Consular/Interview/Other Public Access Areas: Upgrade Teller windows to 15 min. FE/BR ,,,,0.980950355,0.68163096,0.72507489
+1400,119,Consular/Interview/Other Public Access Areas: Upgrade Teller windows to 5 min. FE/BR ,,,,0.064065346,0.209189157,0.22988466
+1500,120,1500_1500_1500 ,,,,0.640808411,0.548124177,0.55439054
+1500,121,Create separation between CAA areas from remainder of building ,,,,0.168880981,0.998604798,0.483651167
+1500,122,Construct protection for CAA penetration(s) ,,,,0.029932805,0.656045591,0.723862758
+1500,123,Upgrade CAA entrance doors to meet door standards ,,,,0.104845329,0.632955753,0.651505753
+1500,124,Configure CAA access points to prevent observation of entrants ,,,,0.951784976,0.858049589,0.478482383
+1500,125,Review all secure rooms not located in a CAA to determine if they need to be moved or upgraded. ,,,,0.992136726,0.353829562,0.592535338
+1500,126,Upgrade Secure room(s) with slab-to-slab construction of substantial material ,,,,0.038953813,0.565313621,0.214840767
+1500,127,Upgrade protections for secure room(s) penetrations ,,,,0.326027777,0.719602648,0.513701524
+1500,128,Upgrade secure room(s) doors to those made from substantial materials ,,,,0.548394902,0.695069025,0.723228896
+1500,129,Upgrade secure room(s) doors with pin type dogging device on the hinge edge ,,,,0.818618363,0.001850665,0.909713307
+1500,130,"Construct SIC in dedicated room behind interior hardline, close to MSG/Guard booth ",,,,0.256035821,0.680685201,0.901853151
+1500,131,"Replace SIC room door schedule with SHW-17, or SHW-17A (L and L), or SHW-13 ",,,,0.018355721,0.410824567,0.83712402
+1600,132,1600_1600_1600 ,,,,0.952211194,0.177252312,0.711674709
+1600,133,Upgrade PCC HVAC system to be dedicated and isolated ,,,,0.695557756,0.265319157,0.485608781
+1600,134,Upgrade all PCC doors to DS approved doors ,,,,0.187156055,0.729178185,0.583681545
+1600,135,"Upgrade PCC perimeter walls, floors, and ceilings to provide 60 min. FE/BR ",,,,0.601220908,0.668632534,0.208274276
+1600,136,Upgrade PCC emergency generator doors to DS approved doors ,,,,0.764162543,0.33578752,0.519443066
+1600,137,Secure PCC fuel supply tank ,,,,0.140738994,0.680867717,0.029213111
+1600,138,Upgrade PCC generator room to provide 60 min. FE/BR ,,,,0.2824978,0.23722606,0.538573946
+1600,139,Upgrade protection of PCC power lines from emergency generator ,,,,0.500921982,0.071364356,0.242499164
+1600,140,Add PCC emergency generator backup ,,,,0.791078021,0.265155614,0.90939959
+1600,141,Add PCC means of egress ,,,,0.422640174,0.341813899,0.294442282
+1600,142,Upgrade PCC to have spherical zone of control ,,,,0.684941593,0.567646963,0.089247348
+1700_Haven,143,1700_1700_Safe_Haven ,,,,0.045561985,0.846544442,0.856674976
+1700_Haven,144,Upgrade facility to have sufficient safe havens or safe haven space for all assigned staff ,,,,0.679986623,0.662879983,0.348363326
+1700_Haven,145,Upgrade Routes to safe haven(s) to provide protection from ballistic or mob attack ,,,,0.174927889,0.753008862,0.986844748
+1700_Haven,146,Add luminescent directional tape and or signage showing path to safe haven on routes to safe haven(s) ,,,,0.331350583,0.887541634,0.37823943
+1700_Haven,147,Upgrade Safe haven(s) to meet 60 min. FE/BR ,,,,0.887398487,0.493767682,0.296284927
+1700_Haven,148,"Upgrade safe haven(s) walls, ceilings, floor slabs, hatches, duct penetrations to provide FE/BR protection ",,,,0.118796678,0.378713926,0.735869392
+1700_Haven,149,Upgrade Safe haven(s) doors to meet safe haven door standards ,,,,0.564362593,0.532088306,0.435607542
+1700_Haven,150,"Upgrade safe haven to have emergency power, ventilation and lighting ",,,,0.850471581,0.488914141,0.810584137
+1700_Haven,151,Upgrade safe haven to have secured storage for emergency supplies ,,,,0.000340238,0.838352633,0.992244235
+1700_Area,152,1700_1700_Safe_Area ,,,,0.341792818,0.198087027,0.683708995
+1700_Area,153,Upgrade facility with sufficient safe areas or safe area space ,,,,0.097501596,0.17373609,0.273054446
+1700_Area,154,Upgrade facility with sufficient safe areas or safe area space for all assigned staff ,,,,0.416647223,0.080463172,0.898859872
+1700_Area,155,Upgrade residence safe area with slab to slab substantial construction with DS certified 5 min. FE doors. ,,,,0.97529741,0.297649858,0.359682594
+1700_Area,156,Upgrade residence safe area with grilles over man passable windows and openings ,,,,0.431951225,0.776046665,0.235525851
+1700_Area,157,Upgrade routes to safe areas with protection from ballistic or mob attack ,,,,0.201680627,0.744646453,0.794580941
+1700_Area,158,Upgrade Safe area(s) to meet 15 min. FE/BR ,,,,0.55910174,0.492844507,0.684572325
+1700_Area,159,"Upgrade Safe area walls, ceilings, floor slabs, hatches, ducts penetrations to provide 15 min. FE/BR protection ",,,,0.922850959,0.570533969,0.285987163
+1700_Area,160,Upgrade Safe area doors to meet or exceed 15 min. FE/BR safe area door standards ,,,,0.577173427,0.274265802,0.065888332
+1700_Area,161,Upgrade safe area with secondary egress that meets FE/BR and is away from entrance ,,,,0.271839248,0.124005437,0.184680066
+1700_Area,162,"Upgrade Safe area with emergency power, ventilation and lighting ",,,,0.327368105,0.845719626,0.622978763
+1700_CES,163,1700_1700_CES ,,,,0.911911583,0.212489152,0.227192361
+1700_CES,164,"Upgrade Compound with sufficient CESs, or CES space ",,,,0.357346674,0.370476729,0.720242595
+1700_CES,165,Upgrade CES in warehouse or in close proximity to warehouse ,,,,0.339122044,0.523041833,0.608350439
+1700_CES,166,Upgrade CES to meet 15 min. FE/BR ,,,,0.987441891,0.325188313,0.411499272
+1700_CES,167,"Upgrade CES walls, windows and doors to meet 15 min. FE/BR ",,,,0.191813461,0.405012128,0.01580228
+1700_CES,168,Upgrade CES with Code-compliant ventilation system ,,,,0.359112024,0.776981724,0.633633894
+1700_CES,169,Upgrade CES with secondary egress away from primary entrance ,,,,0.468758033,0.129598663,0.625722946
+1700_CES,170,"Upgrade CES with functional doors, egress doors and escape hatch ",,,,0.649925673,0.444254962,0.728499122
+1800,171,1800_1800_1800 ,,,,0.857973714,0.212827174,0.446520714
+1800,172,Close off all but one designated door for all Lock and Leave facilities. ,,,,0.023148767,0.200549114,0.557186028
+1800,173,"Upgrade Lock and Leave door to meet SHW-18, or SHW-18A ",,,,0.156864627,0.440914396,0.251954471
+1800,174,Install threashold plates on exterior FE doors ,,,,0.455051278,0.338949207,0.66864808
+1800,175,Secure exterior Non-FE doors with 1 inch throw deadbolt ,,,,0.061583696,0.041851403,0.367899975
+1800,176,Install approved Lock and Leave door ,,,,0.104047139,0.04574216,0.872572291
+1800,177,Construct LAA area between CAA and accessible areas ,,,,0.722161767,0.077751151,0.111976796
+1800,178,Upgrade LAA perimeter wall to 5-min. FE protection ,,,,0.913859908,0.38521364,0.566746649
+1800,179,Upgrade to 10 ft. zone of control ,,,,0.696011723,0.115737567,0.380615287
+1800,180,Facility without PCC: Upgrade Core areas in a vault with a class 5 container ,,,,0.781520471,0.061064838,0.596199484
+1800,181,Upgrade LAA door to 5-min. FE with external keyway FE locks ,,,,0.529950696,0.518243899,0.093777328
+1800,182,Upgrade perimeter wall of CAA to meet secure room construction ,,,,0.201479662,0.708284869,0.502871309
+1900,183,1900_1900_1900 ,,,,0.171562436,0.72521167,0.514494438
+1900,184,Upgrade Non-Laminated interior window(s) with SRWF applied to the protected side of the window. ,,,,0.052035341,0.645336318,0.693100789
+1900,185,Upgrade Office space within warehouse to 15 min. FEBR protection ,,,,0.712405834,0.262902084,0.99732756
+1900,186,Upgrade Office space within warehouse to 5 min. FE protection ,,,,0.262774721,0.925803359,0.926116717
+1900,187,Upgrade office space within warehouse to meet 100 ft. setback ,,,,0.233445217,0.625348419,0.59334853
+1900,188,Upgrade office space within warehouse to meet blast standards ,,,,0.717932625,0.911767619,0.430696349
+1900,189,Upgrade Residential Apartment with a lobby guard station. ,,,,0.264475002,0.87228453,0.189792167
+1900,190,Upgrade Residence with a secondary means of exit in the event of fire or other life threatening emergency. ,,,,0.499177555,0.43074025,0.019452866
+2000,191,2000_2000_2000 ,,,,0.410960338,0.361946823,0.397031472
+2000,192,"Relocate EC room to a dedicated room, behind the interior hardline, as close to the MSG/Guard booth as possible ",,,,0.430609649,0.66735737,0.204978163
+2000,193,"Upgrade EC room door schedule to SHW-17, SHW-17a, or SHW-13 ",,,,0.049791739,0.766593436,0.398449188
