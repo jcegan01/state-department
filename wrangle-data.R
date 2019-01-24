@@ -19,19 +19,19 @@ setwd("C:/Users/xadmin/projects/state-department")
 ###########
 
 #table: physical security measures list
-psm <- read.csv("data/physical-security-measures_title.csv",as.is = TRUE)
+psm <- read.csv("data/physical-security-measures.csv",as.is = TRUE,strip.white=TRUE)
 
 #table: threat level and weight
 #tlv<-read.csv("data/threat-level.csv")#tlv<-melt(tl) #tlv<-rename(tl, c("X"="type", "variable"="level"))
-tl1 <- read.csv("data/threat-1-level_titles.csv",as.is = TRUE)
-tl2 <- read.csv("data/threat-2-level_titles.csv",as.is = TRUE)
-tl3 <- read.csv("data/threat-3-level_titles.csv",as.is = TRUE)
+tl1 <- read.csv("data/threat-1-level.csv",as.is = TRUE,strip.white=TRUE)
+tl2 <- read.csv("data/threat-2-level.csv",as.is = TRUE,strip.white=TRUE)
+tl3 <- read.csv("data/threat-3-level.csv",as.is = TRUE,strip.white=TRUE)
 
 #table: physical security measures - deficiencies
-dfs <- read.csv("data/psm-deficiencies.csv",as.is = TRUE)
+dfs <- read.csv("data/psm-deficiencies.csv",as.is = TRUE,strip.white=TRUE)
 
 #table: physical security measures - conforming
-cfm <- read.csv("data/psm-conforming.csv",as.is = TRUE)
+cfm <- read.csv("data/psm-conforming.csv",as.is = TRUE,strip.white=TRUE)
 
 
 ################
@@ -39,8 +39,8 @@ cfm <- read.csv("data/psm-conforming.csv",as.is = TRUE)
 ##############
 
 #remane measure id column in deficiencies and conforming tables
-dfs<-rename(dfs, c("Tthreat"="TThreat","Cthreat"="CThreat","Physical.Security.Measure.ID.."="ID"))
-cfm<-rename(cfm, c("Tthreat"="TThreat","Cthreat"="CThreat","Physical.Security.Measure.ID.."="ID"))
+dfs<-rename(dfs, c("Tthreat"="TThreat","Cthreat"="CThreat","Physical.Security.Measure.ID.."="ID","FacilityID"="Facility.ID"))
+cfm<-rename(cfm, c("Tthreat"="TThreat","Cthreat"="CThreat","Physical.Security.Measure.ID.."="ID","FacilityID"="Facility.ID"))
 psm<-rename(psm, c("PVTreat.Perf"="PVThreat.Perf","Description"="Measure.Description","Description.1"="Measure.Description.Short"))
 
 #delete descriptions from cfm and dfs tables since this data is referenced on psm
@@ -70,6 +70,11 @@ cfm <- cfm %>% mutate(PVThreat.Value = PVThreat.Perf * PVThreat.Weight) %>%
 
 #combine tables
 res <- rbind(dfs,cfm)
+
+#convert lat long (long to negative, remove characters)
+res$Long <- -as.numeric(substr(res$Long, 0, 7))
+res$Lat <- as.numeric(substr(res$Lat, 0, 7))
+
 
 #############
 ### save ###

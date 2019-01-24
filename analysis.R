@@ -29,16 +29,29 @@ p_m <- merge(p_d,p_s) %>% mutate(Perc.Deficient = Deficiency.Tot / (Deficiency.T
 pb_m <- merge(pb_d,pb_s) %>% mutate(Perc.Deficient = Deficiency.Tot / (Deficiency.Tot + Conforming.Tot))
 
 #add facility and building information
-p_info <- unique(res %>% select("Facility.ID","Lat","Long","Facility.type","Post.Name"))
-pb_info <- unique(res %>% select("Facility.ID","Lat","Long","Facility.type","Post.Name","RFA.ID","Building.Name","RFAType"))
+p_info <- unique(res %>% select("Facility.ID","Lat","Long","Facility.type","Post.Name","PVThreat.Weight","TThreat.Weight","CThreat.Weight"))
+pb_info <- unique(res %>% select("Facility.ID","Lat","Long","Facility.type","Post.Name","RFA.ID","Building.Name","RFAType","PVThreat.Weight","TThreat.Weight","CThreat.Weight"))
 
 #final tables
 p_m <- merge(p_m,p_info)
 pb_m <- merge(pb_m,p_info)
 
 #add sorting (most deficient first)
-p_m %>% arrange(desc(Perc.Deficient)) 
-pb_m %>% arrange(desc(Perc.Deficient))
+p_m <- p_m %>% arrange(desc(Perc.Deficient)) 
+pb_m <- pb_m %>% arrange(desc(Perc.Deficient))
 
+#adding rank
+p_m$perc_rank <- NA
+order.scores<-rev(order(p_m$Perc.Deficient))
+p_m$perc_rank[order.scores] <- 1:nrow(p_m)
+
+p_m$abs_rank <- NA
+order.scores<-rev(order(p_m$Deficiency.Tot))
+p_m$abs_rank[order.scores] <- 1:nrow(p_m)
+p_m
+
+#save data
+save(p_m,file = "rda/p_m.rda")
+save(pb_m,file = "rda/pb_m.rda")
 
                  
